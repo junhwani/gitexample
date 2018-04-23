@@ -335,6 +335,25 @@ a {
 
 }
 
+#account_no_address {
+
+    font-family:sans-serif;
+    font-size: 1.15em;
+    font-weight: bolder;
+    color:white;
+
+    border-color:transparent;
+    background:transparent;
+
+    position:relative;
+
+    width:100%;
+    top:12.5%;
+    text-align:center;
+
+}
+
+
 #account_balances {
 
     font-family:sans-serif;
