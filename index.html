@@ -1,25 +1,31 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <script type="text/javascript" src="js/web3.js"></script>
-        <script type="text/javascript" src="js/account.js"></script>
-        <script type="text/javascript" src="js/modal.js"></script>
-        <script type="text/javascript" src="js/clipboard.js"></script>
-        <link rel="stylesheet" type="text/css" href="css/main.css">
-        <title>ETH Messanger Project Alpha</title>
-    </head>
+  <head>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="js/web3.js"></script>
+    <script type="text/javascript" src="js/account.js"></script>
+    <script type="text/javascript" src="js/modal.js"></script>
+    <script type="text/javascript" src="js/clipboard.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <title>JUNANI WALLET</title>
+  </head>
 
-    <body>
+  <body>
 
-        <div class="account_form">
-                <div class="account_box">
-                    <img class="account_img" src="svg/ethereum.svg"/>
-                </div>
-                <div class="account_address_form">
-                    <span id="account_no_address">You don't have metamask<br><br>Please, install <a href="https://metamask.io/" target="_blank">metamask</a> using <a href="https://www.google.co.kr/chrome/browser/desktop/index.html" target="_blank">chrome</a></span>
-                </div>
-        </div>
+    <div class="account_form">
+      <div class="account_box">
+        <img class="account_img" src="svg/ethereum.svg"/>
+      </div>
+      <div class="account_address_form">
+        <span id="account_no_address">You don't have metamask<br><br>Please, install <a href="https://metamask.io/" target="_blank">metamask</a> using <a href="https://www.google.co.kr/chrome/browser/desktop/index.html" target="_blank">chrome</a></span>
+        <button id="btn_api">API</button>
+        <button id="btn_web3">WEB3</button>
+        <button id="btn_json">JSON</button>
+      </div>
+    </div>
+
+
+
 
         <button id="send_modal">
             <img id="send_modal_img" src="svg/paper-plane.svg"/>
