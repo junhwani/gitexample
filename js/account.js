@@ -41,7 +41,7 @@ setInterval(function() {
           if (((address != null) && (savedAddress != address)) || (savedBalances != balances)) {
 
             document.getElementById("account_address").innerHTML = address;
-            document.getElementById("account_balances").innerHTML = Number(web3.fromWei(Number(balances), 'ether')).toFixed(2) + "ETH";
+            document.getElementById("account_balances").innerHTML = Number(web3.fromWei(Number(balances), 'ether')).toFixed(2) + " ETH";
 
             /*document.getElementsByTagName("div")[2].innerHTML = "<span id='account_address' onclick='copy(this.value)' value='" + address + "' readonly />";
             document.getElementsByTagName("div")[2].innerHTML = "<span id='account_balances'>" + Number(web3.fromWei(Number(balances), 'ether')).toFixed(2) + "&nbsp;ETH</span>";*/
