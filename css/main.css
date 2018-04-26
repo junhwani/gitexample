@@ -376,9 +376,9 @@ a {
     border-color:transparent;
     background:#FF0000;
 
-    position:relative;
+    position:absolute;
 
-    /*width:100%;*/
+    width:100%;
     top:50%;
     text-align:center;
 
