@@ -376,7 +376,7 @@ a {
     border-color:transparent;
     background:transparent;
 
-    position:absolute;
+    position:relative;
 
     width:100%;
     top:50%;
