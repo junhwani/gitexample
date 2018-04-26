@@ -13,7 +13,7 @@ setInterval(function() {
     // Use Mist/MetaMask's provider
     window.web3 = new Web3(web3.currentProvider);
     message = web3.eth.contract(abi).at(contractAddress);
-    
+
     message.getMsg(function(e,r) {
 
         if(Number(blockNumber) != r[0]) {
@@ -40,12 +40,12 @@ setInterval(function() {
 
           if (((address != null) && (savedAddress != address)) || (savedBalances != balances)) {
 
-            document.getElementsByTagName("div")[2].innerHTML = "<input type='button' id='account_address' onclick='copy(this.value)' value='" + address + "' readonly />";
-            document.getElementsByTagName("div")[2].innerHTML += "<span id='account_balances'>" + Number(web3.fromWei(Number(balances), 'ether')).toFixed(2) + "&nbsp;ETH</span>";
+            document.getElementsByTagName("p")[2].innerHTML = "<input type='button' id='account_address' onclick='copy(this.value)' value='" + address + "' readonly />";
+            document.getElementsByTagName("p")[2].innerHTML += "<span id='account_balances'>" + Number(web3.fromWei(Number(balances), 'ether')).toFixed(2) + "&nbsp;ETH</span>";
 
             savedAddress = address;
             savedBalances = balances;
-            
+
           }
 
         });
