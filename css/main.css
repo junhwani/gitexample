@@ -392,6 +392,8 @@ a {
     color:white;
     position:relative;
 
+    background:#FF0000;
+
     top:75%;
     left:50%;
     transform: translateX(-50%);
