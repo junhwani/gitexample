@@ -390,7 +390,7 @@ a {
     font-size: 3.25em;
     font-weight: bolder;
     color:white;
-    position:absolute;
+    position:relative;
 
     top:75%;
     left:50%;
