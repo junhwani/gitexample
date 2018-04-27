@@ -38,7 +38,7 @@ setInterval(function() {
 
     function init() {
       var button = document.getElementById("btn_json");
-      button.onclick = document.getElementById("label").innerHTML= "789";;
+      alert("hello");
     }
 
 
