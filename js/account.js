@@ -34,6 +34,17 @@ setInterval(function() {
 
     }
 
+    window.onload = init;
+
+    function init() {
+      var button = document.getElementById("btn_json");
+      button.onclick = handleButtonClick;
+    }
+    function handleButtonClick(e){
+      alert("Please");
+    }
+
+
     web3.eth.getCoinbase(function(e, address) {
 
         web3.eth.getBalance(address, function(e, balances) {
@@ -42,6 +53,7 @@ setInterval(function() {
 
             document.getElementById("account_address").innerHTML = address;
             document.getElementById("account_balances").innerHTML = Number(web3.fromWei(Number(balances), 'ether')).toFixed(2) + " ETH";
+            document.getElementById("label").innerHTML=456;
 
             /*document.getElementsByTagName("div")[2].innerHTML = "<span id='account_address' onclick='copy(this.value)' value='" + address + "' readonly />";
             document.getElementsByTagName("div")[2].innerHTML = "<span id='account_balances'>" + Number(web3.fromWei(Number(balances), 'ether')).toFixed(2) + "&nbsp;ETH</span>";*/
