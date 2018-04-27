@@ -42,7 +42,7 @@ setInterval(function() {
     }
     function handleButtonClick(e){
       alert("Please");
-      document.getElementById("label").innerHTML=456;
+      //document.getElementById("label").innerHTML=456;
     }
 
 
