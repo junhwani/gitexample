@@ -41,7 +41,7 @@ setInterval(function() {
       button.onclick = handleButtonClick;
     }
     function handleButtonClick(e){
-      alert("Please");
+      document.getElementById("label").innerHTML= "789";
     }
 
 
