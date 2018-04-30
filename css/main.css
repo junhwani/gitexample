@@ -99,7 +99,7 @@ a {
 
 }
 
-#btn_api:hover, #btn_api:focus, #btn_web3:hover, #btn_web3:focus, #btn_json:hover, #btn_json:focus, #btn_send.hover, #btn_send.focus {
+#btn_api:hover, #btn_api:focus, #btn_web3:hover, #btn_web3:focus, #btn_json:hover, #btn_json:focus, #btn_eth.hover, #btn_eth.focus {
 
   background:#446CB3;
   cursor: pointer;
@@ -115,7 +115,7 @@ a {
 
 }
 
-#btn_api:active, #btn_web3:active, #btn_json:active, , #btn_send.active {
+#btn_api:active, #btn_web3:active, #btn_json:active, , #btn_eth.active {
 
   opacity: 1;
   box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.1) inset;
