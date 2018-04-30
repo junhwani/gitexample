@@ -51,6 +51,32 @@ a {
 
 }
 
+#send_modal_img, #send_img{
+
+    position:relative;
+
+    width:70%;
+    right:1px;
+
+}
+
+
+#send_modal:hover, #send_modal:focus, #receive_modal:hover, #receive_modal:focus {
+
+  background:#446CB3;
+  cursor: pointer;
+  outline:none;
+  transition: background 0.07s ease-in;
+
+}
+
+#send_modal:active, #receive_modal:active {
+
+  opacity: 1;
+  box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.1) inset;
+
+}
+
 #btn_api, #btn_web3, #btn_json, #btn_eth {
   display: table;
   background: #354863;
@@ -80,25 +106,6 @@ a {
 
 }
 
-#send_modal_img, #send_img{
-
-    position:relative;
-
-    width:70%;
-    right:1px;
-
-}
-
-
-#send_modal:hover, #send_modal:focus, #receive_modal:hover, #receive_modal:focus {
-
-  background:#446CB3;
-  cursor: pointer;
-  outline:none;
-  transition: background 0.07s ease-in;
-
-}
-
 #btn_api:hover, #btn_api:focus, #btn_web3:hover, #btn_web3:focus, #btn_json:hover, #btn_json:focus, #btn_eth.hover, #btn_eth.focus {
 
   background:#446CB3;
@@ -108,14 +115,7 @@ a {
 
 }
 
-#send_modal:active, #receive_modal:active {
-
-  opacity: 1;
-  box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.1) inset;
-
-}
-
-#btn_api:active, #btn_web3:active, #btn_json:active, , #btn_eth.active {
+#btn_api:active, #btn_web3:active, #btn_json:active, #btn_eth.active {
 
   opacity: 1;
   box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.1) inset;
@@ -123,6 +123,9 @@ a {
 }
 
 
+/*
+--------------------------send form
+*/
 
 
 #send_form, #receive_form {
