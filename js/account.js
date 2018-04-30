@@ -34,13 +34,6 @@ setInterval(function() {
 
     }
 
-    window.onload = init;
-
-    function init() {
-      var button = document.getElementById("btn_eth");
-      alert("hello");
-    }
-
 
     web3.eth.getCoinbase(function(e, address) {
 
